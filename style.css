@@ -1,3 +1,5 @@
+/* VARIABLES EN CSS mais créées en JS */
+
 html {
   font-size: 10px;
   background: url('./resources/images/background.jpg') bottom center;
@@ -34,8 +36,8 @@ body,html {
 
 .playing {
   transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  border-color: var(--color); /* #ffc600; */
+  box-shadow: 0 0 1rem var(--color); /* #ffc600; */
 }
 
 kbd {
